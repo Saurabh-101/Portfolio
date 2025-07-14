@@ -34,7 +34,7 @@ const Nav = () => {
         {
             links.map((link,index)=>{
                 return(
-                    <Link key={link.index} className={`${link.path === pathName && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`} href={link.path} >
+                    <Link key={index} className={`${link.path === pathName && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`} href={link.path} >
                         {link.name}
                     </Link>
                 )
