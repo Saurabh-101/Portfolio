@@ -24,6 +24,7 @@ const Photo = () => {
                         priority quality={100}
                         fill
                         alt=''
+                        sizes='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]'
                         className='object-container rounded-full' />
                 </motion.div>
                 {/* Border Circle */}
