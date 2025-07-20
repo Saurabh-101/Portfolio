@@ -14,7 +14,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Full-Stack Developer</span>
             <h1 className="h1 mb-6">Hello I'm <br /> <span className="text-accent">Saurabh Gupta</span></h1>
-            <p className="max-w-[500px] mb-9 text-white/80 ">
+            <p className="max-w-[500px] mb-9 text-white/80">
               I’m a passionate full-stack developer with hands-on experience building responsive, user-friendly web applications. I work comfortably across the MERN stack, using React, Node.js, and MongoDB, and I’ve also used Laravel for robust backend development. I enjoy designing clean interfaces with HTML, CSS, and modern frameworks, and integrating them with secure, scalable backends.
             </p>
             {/* btns and social medias */}

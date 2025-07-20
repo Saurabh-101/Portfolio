@@ -16,7 +16,7 @@ const stairAnimation = {
 
 // calculating the reverse index for staggered delay
 const reverseIndex = (index) =>{
-    const totalSteps = 6;
+    const totalSteps = 8;
     return totalSteps - index - 1;
 
 }
@@ -31,7 +31,7 @@ const Stairs = () => {
         creating a staggered effect with decreasing delau\y for each subsequent step.
     */}
     {
-        [...Array(6)].map((_,index) => {
+        [...Array(8)].map((_,index) => {
             return(
             <motion.div key={index} variants={stairAnimation} initial="initial" animate="animate" exit="exit" transition={{
                 duration:0.4,
