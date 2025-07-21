@@ -8,7 +8,7 @@ import { SiTailwindcss, SiNodedotjs, SiExpress, SiGit, SiMongodb, SiNextdotjs, S
 // about data
 const about = {
   title: "About Me",
-  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit recusandae minus ratione delectus repudiandae est voluptates veniam dicta odit ea, corrupti earum enim esse, nobis mollitia vero omnis ullam.",
+  desc: "A seasoned Full-Stack Developer with 24 years of experience, I thrive at the intersection of creativity and technology. My expertise spans the MERN stack (React, Node.js, MongoDB), empowering me to build seamless, scalable web applications from concept to deployment. Passionate about crafting intuitive user experiences and robust backend systems, I blend clean design with efficient code to solve real-world problems.",
   info: [
     {
       fieldName: "Name",
@@ -48,7 +48,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My Experience',
-  desc: 'Fresher.',
+  desc: 'A driven fresher with expertise in MERN stack and Laravel, I build modern, scalable web applications. My fresh perspective and passion for clean code allow me to deliver impactful solutions. While new to the industry, my work speaks for itself.',
   items: [
     // {
     //   company:"none",
@@ -61,7 +61,7 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My Education',
-  desc: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit recusandae minus ratione delectus repudiandae est voluptates veniam dicta odit ea, corrupti earum enim esse, nobis mollitia vero omnis ullam.',
+  desc: 'With a solid foundation in Computer Science and a relentless pursuit of knowledge, my education has shaped me into a problem-solver who thrives on innovation and continuous growth in the tech world.',
   items: [
     {
       institute: "Lovely Professional University, Punjab",
@@ -86,7 +86,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis incidunt doloribus ullam quis ipsam impedit excepturi nulla numquam blanditiis.",
+  desc: "A versatile professional with expertise in Web Development. My skills bridge theory and practice, ensuring solutions that are both robust and user-centric.",
   skillList: [
     {
       icon: <FaHtml5 />,
