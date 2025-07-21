@@ -131,14 +131,17 @@ const Work = () => {
                     <div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'></div>
                     {/* image */}
                     <div className='relative h-full w-full'>
-                      <Image src={project.image} fill className='object-cover' alt=''/>
+                      <Image sizes='max-w-full' src={project.image} fill className='object-cover' alt='' />
                     </div>
                     </div>
                   </SwiperSlide>
                 )
               })}
               {/* buttons */}
-              <WorkSliderBtns />
+              <WorkSliderBtns 
+              containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+              btnStyles="xl:bg-accent xl:hover:bg-accent-hover  xl:text-primary text-accent text-[22px] w-[44px] h-[44px] flex justify-center items-center rounded-xl transition-all"
+              />
             </Swiper>
           </div>
         </div>
