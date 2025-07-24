@@ -53,6 +53,7 @@ const Contact = () => {
                 <Input type="phone" placeholder="Phone Number" />
               </div>
               {/* select */}
+              {/* <div className='relative w-full h-full'>
               <Select>
                 <SelectTrigger className='w-full'>
                   <SelectValue placeholder="Select a service"/>
@@ -66,6 +67,12 @@ const Contact = () => {
                   </SelectGroup>
                 </SelectContent>
               </Select>
+              </div> */}
+              {/* text area */}
+              <Textarea className="h-[200px]" placeholder="Tell me, how can I help you :) " />
+
+              {/* btn */}
+              <Button size="md" className="max-w-40">Send Message</Button>
             </form>
           </div >
           {/* info */}
